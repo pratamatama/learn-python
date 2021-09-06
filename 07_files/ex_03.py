@@ -33,7 +33,7 @@ try:
         if not line.startswith('Subject:'):
             continue
         lines_count = lines_count + 1
-    print('There were ' + str(lines_count) + ' subject in ' + filename)
+    print('There were ' + str(lines_count) + ' subject lines in ' + filename)
 except:
     print('File cannot be opened: ' + filename)
     quit()
