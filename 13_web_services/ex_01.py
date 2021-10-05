@@ -17,7 +17,7 @@ if api_key is False:
     api_key = 42
     serviceurl = 'http://py4e-data.dr-chuck.net/json?'
 else:
-    serviceurl = 'https://maps.googleapis.com/,aps/api/geocode/json?'
+    serviceurl = 'https://maps.googleapis.com/maps/api/geocode/json?'
 
 # Ignore SSL certificate errors
 ctx = ssl.create_default_context()
